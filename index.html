@@ -56,13 +56,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="resources_btn" data-toggle="tab" href="#resources" role="tab" aria-controls="resources" aria-selected="false">
-                            <i class="now-ui-icons ui-2_settings-90"></i> Resources
+                        <a class="nav-link" id="conclusion_btn" data-toggle="tab" href="#conclusion" role="tab" aria-controls="resources" aria-selected="false">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Conclusion
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="about_btn" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">
-                            <i class="now-ui-icons business_badge"></i> About
+                            <i class="now-ui-icons business_badge"></i> About Us and References
                         </a>
                     </li>
                 </ul>
@@ -315,7 +315,7 @@
             </div>
 
 
-            <div class="tab-pane" id="resources" role="tabpanel">
+            <div class="tab-pane" id="conclusion" role="tabpanel">
                 <div class="card">
                     <div class="card-body">
                         <p style="color: black;">
@@ -332,7 +332,13 @@
             <div class="tab-pane" id="about" role="tabpanel">
                 <div class="card">
                     <div class="card-body">
-                        <p style="color: black;">test3</p>
+                        <p style="color: black;">
+                            <h1>About us and References</h1>
+                            This website was created by a group of students from SMU for school project.
+
+                            The website aims to teach people about history, impacts, implication and applications about beers.
+                        
+                            None of the images belong to us. </p>
 
                     </div>
                 </div>
@@ -384,9 +390,9 @@
             }, 100);
         })
 
-        $("#resources_btn").click(function() {
+        $("#conclusion_btn").click(function() {
             $('html, body').animate({
-                scrollTop: $("#resources").offset().top
+                scrollTop: $("#conclusion").offset().top
             }, 100);
         })
 
