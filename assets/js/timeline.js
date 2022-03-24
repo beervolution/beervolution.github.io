@@ -13,6 +13,7 @@ $(function() {
             distance: '300px',
             easing: 'ease-in-out',
             duration: 800,
+            reset: true
         });
 
     } else {
@@ -22,6 +23,7 @@ $(function() {
             distance: '300px',
             easing: 'ease-in-out',
             duration: 800,
+            reset: true
         });
 
         sr.reveal('.js--fadeInRight', {
@@ -29,6 +31,7 @@ $(function() {
             distance: '300px',
             easing: 'ease-in-out',
             duration: 800,
+            reset: true
         });
 
     }
@@ -38,6 +41,7 @@ $(function() {
         distance: '300px',
         easing: 'ease-in-out',
         duration: 800,
+        reset: true
     });
 
     sr.reveal('.js--fadeInRight', {
@@ -45,6 +49,7 @@ $(function() {
         distance: '300px',
         easing: 'ease-in-out',
         duration: 800,
+        reset: true
     });
 
 
