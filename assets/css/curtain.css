@@ -205,17 +205,67 @@ Main Components
   line-height: 1.8;
 }
 .cd-section:nth-of-type(2) .cd-half-block:first-of-type {
-  background-image: url("../img/img-1.jpg");
+  background-image: url("../img/impacts/2.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
-  background-image: url("../img/img-2.jpg");
+  background-image: url("../img/impacts/3.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
-  background-image: url("../img/img-3.jpg");
+  background-image: url("../img/impacts/4.jpg");
+  background-size: cover;
+  background-position-x: 60%;
+}
+.cd-section:nth-of-type(5) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/5.jpg");
+  background-size: 100%;
+}
+.cd-section:nth-of-type(6) .cd-half-block:first-of-type {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(assets/img/impacts/6.jpg) center center no-repeat;
   background-size: cover;
 }
+.cd-section:nth-of-type(7) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/7.jpg");
+  background-size: 100%;
+}
+.cd-section:nth-of-type(8) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/8.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(9) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/9.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(10) .cd-half-block:first-of-type {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(assets/img/impacts/10.jpg) center center no-repeat; 
+  background-size: cover;
+}
+.cd-section:nth-of-type(11) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/11.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(12) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/12.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(13) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/13.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(14) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/14.jpg");
+  background-size: cover;
+}
+.cd-section:nth-of-type(15) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/15.jpg");
+  background-size: contain;
+}
+.cd-section:nth-of-type(16) .cd-half-block:first-of-type {
+  background-image: url("../img/impacts/16.jpg");
+  background-size: cover;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-half-block {
     height: 100vh !important;
