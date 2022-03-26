@@ -119,7 +119,7 @@ Main Components
 @media only screen and (min-width: 1170px) {
   
   .cd-section {
-    height: 100vh;
+    height: 100.01vh;
   }
 }
 .cd-section h1 {

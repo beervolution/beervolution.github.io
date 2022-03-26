@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
 				opacity,
 				boxShadowOpacity;
 
-			if( offset >= -windowHeight && offset+0.00000000001 <= 0 ) {
+			if( offset >= -windowHeight && offset+0.01 <= 0 ) {
 			
 				//move the two .cd-half-block toward the center - no scale/opacity effect
 				scale = 1,
