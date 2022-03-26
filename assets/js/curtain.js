@@ -60,12 +60,14 @@ jQuery(document).ready(function($){
 				boxShadowOpacity;
 
 			if( offset >= -windowHeight && offset+0.000001 <= 0 ) {
+			
 				//move the two .cd-half-block toward the center - no scale/opacity effect
 				scale = 1,
 				opacity = 1,
 				translate = (windowWidth * 0.5 * (- offset/windowHeight)).toFixed(0)+'px';
-
+				
 			} else if( offset > 0 && offset <= windowHeight ) {
+			
 				//the two .cd-half-block are in the center - scale the .cd-block element and reduce the opacity
 				translate = 0+'px',
 				scale = (1 - ( offset * scaleSpeed/windowHeight)).toFixed(5),
